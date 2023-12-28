@@ -1,7 +1,7 @@
 # Neural Network Implementation
 
 ## Description
-This is an implementation of a feedforward neural network in C++ using the Eigen library for matrix operations and the Boost library for random number generation. The program demonstrates constructing a network, training it with backpropagation, and making predictions.
+This repository provides a straightforward implementation of a feedforward neural network in C++. It leverages Eigen for matrix computations and Boost for initializing weights and biases with random values. It's designed to be an educational resource for understanding the basics of neural networks, including training and prediction processes.
 
 ## Prerequisites
 - C++ Compiler (C++11 or above)
@@ -10,7 +10,7 @@ This is an implementation of a feedforward neural network in C++ using the Eigen
 - matplotlibcpp (matplotlib for C++)
 
 ## File Structure
-- `main.cpp`: Contains the entire neural network implementation and execution.
+- `network.cpp`: Contains the entire neural network implementation and execution.
 - `mnist_train.csv`: Example training data file (not included in this repository).
 - `mnist_test.csv`: Example testing data file (not included in this repository).
 
